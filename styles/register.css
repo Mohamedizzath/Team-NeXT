@@ -32,7 +32,7 @@
 
 .registration h2 {
   text-align: center;
-  font-size: 42px;
+  font-size: 32px;
   margin-bottom: 32px;
 }
 
@@ -40,16 +40,22 @@
   color: var(--secondarycolor);
 }
 
-.registration p {
-  font-size: 24px;
-  font-family: "Nunito", sans-serif;
-  color: var(--primarycolor);
-}
-
 .form-details {
-  padding-left: 36px;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .form-details h5 {
   font-size: 16px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: space-evenly;
 }

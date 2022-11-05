@@ -13,7 +13,10 @@
       rel="stylesheet"
     />
 
-    <title>Home page | NeXT Travels</title>
+    <link href="../styles/main.css" rel="stylesheet" />
+    <link href="../styles/query-form.css" rel="stylesheet" />
+
+    <title>Query Form | NeXT Travels</title>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -28,5 +31,36 @@
         <a href="../pages/register.html">Register</a>
       </div>
     </div>
+    <section class="page-content">
+      <div class="left-panel">
+        <h1 class="heading query-form-heading">WRITE TO US</h1>
+        <p class="queryform-content-text">
+          Stories like yours are what helps travelers have better trips. Share
+          your experience and help out a fellow traveler!
+        </p>
+        <div class="form-container">
+          <form>
+            <div class="form-control">
+              <label for="input-email" class="form-label">Email</label>
+              <br />
+              <input type="email" id="input-email" class="form-input-text" />
+            </div>
+            <div class="form-control">
+              <label for="input-feedback" class="form-label">Feedback</label>
+              <br />
+              <textarea
+                class="form-textarea"
+                name="feedback-text"
+                id="feedback-text"
+                cols="45"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="button">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="right-panel"></div>
+    </section>
   </body>
 </html>

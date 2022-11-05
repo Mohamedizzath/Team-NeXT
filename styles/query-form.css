@@ -1,0 +1,53 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.page-content {
+  display: flex;
+  padding: 16px;
+  background-color: var(--accentcolor);
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 36px;
+  padding: 16px 32px;
+}
+
+.right-panel {
+  width: 50vw;
+  min-height: 500px;
+  min-width: 450px;
+  max-height: 650px;
+  max-width: 500px;
+  margin: 28px;
+  background-image: url("../assets/images/query.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  padding: 32px;
+  background-color: rgba(79, 91, 115, 0.12);
+}
+
+.query-form-heading {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.queryform-content-text {
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  color: var(--primarycolor);
+}

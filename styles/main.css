@@ -26,7 +26,6 @@
 .text-link {
   color: var(--secondarycolor);
   text-decoration: none;
-  font-size: 24px;
 }
 
 /* Styles for buttons*/
@@ -44,6 +43,11 @@ button {
   cursor: pointer;
   border-radius: 0.05rem;
   font-family: "Ink free", san-serif;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 4px 4px #000;
 }
 
 /* Styles for the inputs */
@@ -101,6 +105,14 @@ button {
   outline-width: 4px;
 }
 
+.form-control-checkbox {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--primarycolor);
+  border-radius: 4px;
+  outline: 3px solid var(--primarycolor);
+}
+
 /*Styles for the navigation bar*/
 .nav {
   display: flex;
@@ -116,10 +128,27 @@ button {
 
 .nav .buttons a {
   display: inline-block;
+  position: relative;
   align-items: center;
   text-align: center;
   color: var(--accentcolor);
+  text-shadow: 0 4px 4px #000000;
   text-decoration: none;
   font-size: 24px;
-  padding: 16px;
+  padding: 32px;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--secondarycolor);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--accentcolor);
 }
