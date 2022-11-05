@@ -1,0 +1,36 @@
+.home-banner {
+  display: flex;
+  width: 100vw;
+  height: 65vh;
+  background-color: var(--primarycolor);
+}
+
+.left-panel {
+  width: 50%;
+  margin: 24px 48px;
+  background-image: url("../assets/images/Home page/img1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.right-panel-container {
+  width: 65%;
+}
+
+.home-banner-heading {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.home-banner-text {
+  font-size: 24px;
+}

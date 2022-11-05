@@ -29,7 +29,7 @@
 }
 
 /* Styles for buttons*/
-button {
+.button {
   background-color: var(--secondarycolor);
   border: none;
   padding: 0.5rem 1.9rem;
@@ -46,7 +46,7 @@ button {
   transition: box-shadow 0.25s ease-in-out;
 }
 
-button:hover {
+.button:hover {
   box-shadow: 4px 4px #000;
 }
 
@@ -113,6 +113,40 @@ button:hover {
   outline: 3px solid var(--primarycolor);
 }
 
+.form-textarea {
+  outline: 2px solid var(--primarycolor);
+  border: none;
+  width: 350px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 24px;
+  padding: 8px;
+  margin: 8px 0;
+  color: var(--primarycolor);
+  background-color: var(--accentcolor);
+  transition: outline 0.1s ease-in-out;
+}
+
+.form-textarea:hover {
+  outline-width: 4px;
+}
+
+.form-textarea:active .nav button {
+  border: none;
+  color: var(--accentcolor);
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 4px 4px #000000;
+  display: inline-block;
+  font-size: 24px;
+  padding: 32px;
+  cursor: pointer;
+  border-radius: 0.05rem;
+}
+
 /*Styles for the navigation bar*/
 .nav {
   display: flex;
@@ -126,29 +160,27 @@ button:hover {
   width: 100px;
 }
 
-.nav .buttons a {
-  display: inline-block;
-  position: relative;
+.nav button {
+  border: none;
+  background-color: var(--primarycolor);
+  color: var(--accentcolor);
   align-items: center;
   text-align: center;
-  color: var(--accentcolor);
-  text-shadow: 0 4px 4px #000000;
   text-decoration: none;
+  text-shadow: 0 4px 4px #000000;
+  display: inline-block;
   font-size: 24px;
   padding: 32px;
+  cursor: pointer;
+  border-radius: 0.05rem;
 }
 
-.nav a::after {
-  content: "";
-  position: absolute;
-  background-color: var(--secondarycolor);
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-a:hover {
+.nav a {
+  text-decoration: none;
   color: var(--accentcolor);
+}
+
+.nav button:hover {
+  border-bottom: 3px solid var(--secondarycolor);
+  transition: 0.3s;
 }
