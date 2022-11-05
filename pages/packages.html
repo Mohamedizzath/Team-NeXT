@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,26 +10,175 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
 
-    <title>Travel Packages</title>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <div class="nav">
-      <img src="../assets/images/Logo.png" alt="Logo" />
-      <div class="buttons">
+        <link href="../styles/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/packages.css" />
+
+    <!-- Icon import -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <title>TRAVEL PACKAGES</title>
+</head>
+
+<body>
+  <div class="nav">
+    <input type="checkbox" name="" id="check">
+    <label for="check" class="checkbtn">
+      <i class="ri-menu-line"></i>
+    </label>
+    <img src="../assets/images/Logo.png" alt="Logo" />
+    <div class="buttons-container">
+      <button class="nav-button">
         <a href="../pages/home.html">Home</a>
+      </button>
+      <button class="nav-button">
         <a href="../pages/about-us.html">About Us</a>
+      </button>
+      <button class="nav-button">
         <a href="../pages/gallery.html">Gallery</a>
+      </button>
+      <button class="nav-button">
         <a href="../pages/packages.html">Packages</a>
+      </button>
+      <button class="nav-button">
         <a href="../pages/query-form.html">Query Form</a>
+      </button>
+      <button class="nav-button">
         <a href="../pages/register.html">Register</a>
+      </button>
+    </div>
+  </div>
+    <div>
+
+        <h1>TRAVEL PACKAGES</h1>
+
+        <div class="grid">
+
+            <!-- Card 1 -->
+            <div class="grid-item">
+                <div class="card">
+                    <h1 class="card-header">Luxury Package</h1>
+                    <img class="card-img" src="../assets/images/packages/1.jpg" />
+                    <div class="card-content">
+
+                        <p class="card-text">
+                            <i class="ri-currency-line"></i>
+                            &nbsp; From $ 3 500
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-star-line"></i></i>
+                            &nbsp;5 Star Hotel <br/>
+                            &nbsp; &nbsp; &nbsp;7 Days & 6 Nights
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-map-pin-line"></i>
+                            &nbsp;Kandy Nuwara Eliya Bentota <br />
+                            &nbsp; &nbsp; &nbsp;Colombo Galle
+                        </p>
+
+                        <button class="card-btn">
+                            5% Off
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="grid-item">
+                <div class="card">
+                    <h1 class="card-header">Premium Package</h1>
+                    <img class="card-img" src="../assets/images/packages/2.jpg" />
+                    <div class="card-content">
+
+                        <p class="card-text">
+                            <i class="ri-currency-line"></i>
+                            &nbsp; From $ 2 000
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-star-line"></i></i>
+                            &nbsp;4 Star Hotel <br/>
+                            &nbsp; &nbsp; &nbsp;5 Days & 4 Nights
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-map-pin-line"></i>
+                            &nbsp;Kandy Nuwara Eliya Bentota <br />
+                            &nbsp; &nbsp; &nbsp;Sigiriya
+                        </p>
+
+                        <button class="card-btn">
+                            8% Off
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="grid-item">
+                <div class="card">
+                    <h1 class="card-header">Economy Package</h1>
+                    <img class="card-img" src="../assets/images/packages/3.jpg" />
+                    <div class="card-content">
+
+                        <p class="card-text">
+                            <i class="ri-currency-line"></i>
+                            &nbsp; From $ 1 000
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-star-line"></i></i>
+                            &nbsp;3 Star Hotel <br/>
+                            &nbsp; &nbsp; &nbsp;4 Days & 3 Nights
+                        </p>
+                        <p class="card-text">
+                            <i class="ri-map-pin-line"></i>
+                            &nbsp;Kandy Bentota Trincomalee<br />
+                            &nbsp; &nbsp; &nbsp; Galle
+                        </p>
+
+                        <button class="card-btn">
+                            8% Off
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+      <hr />
+      <div class="footer-top">
+        <div class="left-container">
+          <p>
+            Get inspired ! Recieve travel discounts, tips & behind the scene
+            stories
+          </p>
+          <div class="subscribe">
+            <div class="subscribe-input-container">
+              <input
+                type="email"
+                class="form-input-text subscribe-input"
+                placeholder="Enter your email here..."
+              />
+            </div>
+            <button class="button">Subscribe</button>
+          </div>
+          <div class="social-media">
+            <i class="ri-youtube-fill"></i>
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+          </div>
+        </div>
+        <div class="right-container">
+          <img src="../assets/images/Logo.png" alt="Logo" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr />
+        <p>© 2020 All rights reserved. Design by Team NeXT</p>
       </div>
     </div>
+</body>
 
-    <h1>Travel Packages</h1>
-  </body>
 </html>

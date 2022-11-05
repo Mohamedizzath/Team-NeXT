@@ -88,5 +88,81 @@ body {
 }
 
 .inquiry-section h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 360px) and (max-width: 820px) {
+  .left-panel {
+    display: none;
+  }
+
+  .aboutus-heading {
+    font-size: 1.5rem;
+  }
+
+  .aboutus-text {
+    font-size: 1rem;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+
+  .reachus-heading {
+    font-size: 1.5rem;
+  }
+
+  .reachus-right-panel {
+    display: none;
+  }
+
+  .reachus-left-panel {
+    width: 100%;
+  }
+
+  .inquiry-section {
+    flex-direction: column;
+  }
+
+  .inquiry-section h4 {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .left-panel {
+    display: none;
+  }
+
+  .aboutus-heading {
+    font-size: 1.5rem;
+  }
+
+  .aboutus-text {
+    font-size: 1rem;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+
+  .reachus-heading {
+    font-size: 1.5rem;
+  }
+
+  .reachus-right-panel {
+    display: none;
+  }
+
+  .reachus-left-panel {
+    width: 100%;
+  }
+
+  .inquiry-section {
+    flex-direction: column;
+  }
+
+  .inquiry-section h4 {
+    font-size: 0.6rem;
+  }
 }
