@@ -1,0 +1,50 @@
+.page-content {
+  padding: 16px;
+  background-color: var(--accentcolor);
+}
+
+.register {
+  margin: 0;
+}
+
+.left-container {
+  width: 50vw;
+  min-height: 415px;
+  margin: 0;
+  background-image: url("../assets/images/register\ next.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right-container {
+  width: 50vw;
+  padding: 36px;
+}
+
+.registration {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  margin: 42px;
+  background-color: rgba(79, 91, 115, 0.12);
+}
+
+.registration h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+
+.registration p {
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  color: var(--primarycolor);
+}
+
+.form-details h5 {
+  font-size: 16px;
+}
+
+.form-details a {
+  color: var(--secondarycolor);
+  font-size: 16px;
+}

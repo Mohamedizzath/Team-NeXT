@@ -1,0 +1,118 @@
+/* Font imports */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+:root {
+  --primarycolor: #4f5b73;
+  --secondarycolor: #bf4974;
+  --accentcolor: #cee3f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("../assets/fonts/Inkfree.ttf");
+/* font-family: 'Inkfree', san-serif; */
+
+/* Styles for the headings */
+.heading {
+  color: var(--primarycolor);
+  font-family: "Nunito", sans-serif;
+}
+
+/* Styles for buttons*/
+button {
+  background-color: var(--secondarycolor);
+  border: none;
+  padding: 0.5rem 1.9rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px var(--primarycolor);
+  display: inline-block;
+  font-size: 2.5rem;
+  margin: 1.3rem;
+  cursor: pointer;
+  border-radius: 0.05rem;
+  font-family: "Ink free", san-serif;
+}
+
+/* Styles for the inputs */
+.form-input-text {
+  outline: 2px solid var(--primarycolor);
+  border: none;
+  min-width: 350px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 24px;
+  padding: 8px;
+  margin: 8px 0;
+  color: var(--primarycolor);
+  background-color: var(--accentcolor);
+  transition: outline 0.1s ease-in-out;
+}
+
+.form-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: var(--primarycolor);
+}
+
+.form-input-text:active {
+  outline-width: 4px;
+}
+
+.form-input-text:hover {
+  outline-width: 4px;
+}
+
+.form-input-date {
+  outline: 2px solid var(--primarycolor);
+  border: none;
+  min-width: 350px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 24px;
+  padding: 8px;
+  margin: 8px 0;
+  color: var(--primarycolor);
+  background-color: var(--accentcolor);
+  transition: outline 0.1s ease-in-out;
+}
+
+.form-input-date:active {
+  outline-width: 4px;
+}
+
+.form-input-date:hover {
+  outline-width: 4px;
+}
+
+/*Styles for the navigation bar*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--primarycolor);
+}
+
+.nav img {
+  width: 100px;
+}
+
+.nav .buttons a {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: var(--accentcolor);
+  text-decoration: none;
+  font-size: 24px;
+  padding: 16px;
+}
