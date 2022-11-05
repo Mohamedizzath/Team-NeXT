@@ -23,6 +23,12 @@
   font-family: "Nunito", sans-serif;
 }
 
+.text-link {
+  color: var(--secondarycolor);
+  text-decoration: none;
+  font-size: 24px;
+}
+
 /* Styles for buttons*/
 button {
   background-color: var(--secondarycolor);
@@ -98,6 +104,7 @@ button {
 /*Styles for the navigation bar*/
 .nav {
   display: flex;
+  font-family: "Nunito", sans-serif;
   justify-content: space-between;
   padding: 16px;
   background-color: var(--primarycolor);

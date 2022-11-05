@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.frame {
+  border: 1px solid var(--accentcolor);
+  width: 426px;
+  height: 340px;
+}
+
+.frame:hover {
+  border: 1px solid var(--secondarycolor);
+}
+
+.frame img {
+  width: 418px;
+  height: 275px;
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+}

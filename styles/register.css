@@ -1,30 +1,32 @@
-.page-content {
-  padding: 16px;
-  background-color: var(--accentcolor);
-}
-
 .register {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
 .left-container {
   width: 50vw;
   min-height: 415px;
   margin: 0;
-  background-image: url("../assets/images/register\ next.png");
+  background-image: url("../assets/images/register next.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .right-container {
   width: 50vw;
-  padding: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accentcolor);
 }
 
 .registration {
-  display: flex;
+  width: 75%;
   font-family: "Nunito", sans-serif;
   margin: 42px;
+  padding: 36px 24px;
   background-color: rgba(79, 91, 115, 0.12);
 }
 
@@ -34,17 +36,20 @@
   margin-bottom: 32px;
 }
 
+.reg-heading-highlight {
+  color: var(--secondarycolor);
+}
+
 .registration p {
   font-size: 24px;
   font-family: "Nunito", sans-serif;
   color: var(--primarycolor);
 }
 
-.form-details h5 {
-  font-size: 16px;
+.form-details {
+  padding-left: 36px;
 }
 
-.form-details a {
-  color: var(--secondarycolor);
+.form-details h5 {
   font-size: 16px;
 }

@@ -31,40 +31,62 @@
           rel="stylesheet"
         />
 
+        <link href="../styles/main.css" rel="stylesheet" />
+        <link href="../styles/register.css" rel="stylesheet" />
+
         <title>Home page | NeXT Travels</title>
       </head>
       <body>
-        <!-- Navigation Bar -->
-        <div class="nav">
-          <img src="../assets/images/Logo.png" alt="Logo" />
-          <div class="buttons">
-            <a href="../pages/home.html">Home</a>
-            <a href="../pages/about-us.html">About Us</a>
-            <a href="../pages/gallery.html">Gallery</a>
-            <a href="../pages/packages.html">Packages</a>
-            <a href="../pages/query-form.html">Query Form</a>
-            <a href="../pages/register.html">Register</a>
-          </div>
-        </div>
-
         <!-- Register page content -->
-        <div class="Register">
-          <div class="left-container">
-            <img src="" alt="Register" />
-          </div>
+        <div class="register">
+          <div class="left-container"></div>
           <div class="right-container">
-            <div class="Registration">
-              <h2>Register to unlock the best of Next travels</h2>
+            <div class="registration">
+              <h2 class="heading">
+                Register to unlock the best of
+                <span class="reg-heading-highlight">Next travels</span>
+              </h2>
               <div class="form-details">
-                <p>Email address</p>
-                <input type="text" placeholder="mohamedizzath2016@gmail.com" />
-                <p>Password</p>
-                <input type="password" placeholder="Your password" />
-                <p>Confirm Password</p>
-                <input type="password" placeholder="Re enter your password" />
-                <input type="checkbox" name="agree" />
-                <h5>Agree to</h5>
-                <a href="#">terms & conditions</a>
+                <div class="form-control">
+                  <label for="input-email" class="form-label"
+                    >Email Address</label
+                  >
+                  <br />
+                  <input
+                    type="email"
+                    id="input-email"
+                    class="form-input-text"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="input-password" class="form-label"
+                    >Password</label
+                  >
+                  <br />
+                  <input
+                    type="password"
+                    id="input-password"
+                    class="form-input-text"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="input-confirm-password" class="form-label"
+                    >Confirm Password</label
+                  >
+                  <br />
+                  <input
+                    type="password"
+                    id="input-confirm-password"
+                    class="form-input-text"
+                  />
+                </div>
+                <div class="form-group">
+                  <input type="checkbox" name="agree" />
+                  <p>
+                    Agree to&nbsp;
+                    <a class="text-link" href="#">terms & conditions</a>
+                  </p>
+                </div>
               </div>
               <div class="form-button">
                 <button>Back</button>
