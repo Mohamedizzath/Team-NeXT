@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--accentcolor);
-  font-family: "Nunito", sans-serif;
-}
-
 h1 {
   color: var(--primarycolor);
   text-align: center;
@@ -99,7 +90,7 @@ span {
   }
 
   span {
-    font-size: 14px;
+    font-size: 20px;
     margin: 2.5px;
   }
 }

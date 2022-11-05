@@ -1,10 +1,5 @@
-body {
-  font-family: "Nunito", sans-serif;
-}
-
 .page-content {
   display: flex;
-  height: 100vh;
   padding: 16px;
   background-color: var(--accentcolor);
 }
@@ -55,12 +50,13 @@ body {
 }
 
 @media (min-width: 360px) and (max-width: 820px) {
-  .left-panel {
-    width: 100%;
+  .page-content {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .right-panel {
-    display: none;
+  .left-panel {
+    width: 100%;
   }
 }
 
