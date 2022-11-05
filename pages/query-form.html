@@ -13,6 +13,13 @@
       rel="stylesheet"
     />
 
+    <!-- Icon import -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS imports-->
     <link href="../styles/main.css" rel="stylesheet" />
     <link href="../styles/query-form.css" rel="stylesheet" />
 
@@ -22,15 +29,29 @@
     <!-- Navigation Bar -->
     <div class="nav">
       <img src="../assets/images/Logo.png" alt="Logo" />
-      <div class="buttons">
-        <a href="../pages/home.html">Home</a>
-        <a href="../pages/about-us.html">About Us</a>
-        <a href="../pages/gallery.html">Gallery</a>
-        <a href="../pages/packages.html">Packages</a>
-        <a href="../pages/query-form.html">Query Form</a>
-        <a href="../pages/register.html">Register</a>
+      <div class="buttons-container">
+        <button class="nav-button">
+          <a href="../pages/home.html">Home</a>
+        </button>
+        <button class="nav-button">
+          <a href="../pages/about-us.html">About Us</a>
+        </button>
+        <button class="nav-button">
+          <a href="../pages/gallery.html">Gallery</a>
+        </button>
+        <button class="nav-button">
+          <a href="../pages/packages.html">Packages</a>
+        </button>
+        <button class="nav-button">
+          <a href="../pages/query-form.html">Query Form</a>
+        </button>
+        <button class="nav-button">
+          <a href="../pages/register.html">Register</a>
+        </button>
       </div>
     </div>
+
+    <!-- Query form page content -->
     <section class="page-content">
       <div class="left-panel">
         <h1 class="heading query-form-heading">WRITE TO US</h1>
@@ -62,5 +83,41 @@
       </div>
       <div class="right-panel"></div>
     </section>
+
+    <!-- Footer -->
+    <div class="footer">
+      <hr />
+      <div class="footer-top">
+        <div class="left-container">
+          <p>
+            Get inspired ! Recieve travel discounts, tips & behind the scene
+            stories
+          </p>
+          <div class="subscribe">
+            <div class="subscribe-input-container">
+              <input
+                type="email"
+                class="form-input-text subscribe-input"
+                placeholder="Enter your email here..."
+              />
+            </div>
+            <button class="button">Subscribe</button>
+          </div>
+          <div class="social-media">
+            <i class="ri-youtube-fill"></i>
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-fill"></i>
+          </div>
+        </div>
+        <div class="right-container">
+          <img src="../assets/images/Logo.png" alt="Logo" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr />
+        <p>© 2020 All rights reserved. Design by Team NeXT</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,7 +1,8 @@
 .register {
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  max-width: fit-content;
   display: flex;
 }
 
@@ -32,7 +33,7 @@
 
 .registration h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 32px;
 }
 
@@ -58,4 +59,42 @@
 .form-button {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 820) {
+  .left-container {
+    display: none;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  .registration {
+    margin: 18px;
+    padding: 18px 12px;
+  }
+
+  .registration h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .left-container {
+    display: none;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  .registration {
+    margin: 18px;
+    padding: 18px 12px;
+  }
+
+  .registration h2 {
+    font-size: 1.5rem;
+  }
 }

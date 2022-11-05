@@ -53,6 +53,8 @@ h1 {
 
 .desc i {
   color: var(--secondarycolor);
+  width: 30px;
+  height: auto;
 }
 
 span {
